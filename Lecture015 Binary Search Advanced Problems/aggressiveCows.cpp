@@ -1,7 +1,7 @@
 bool isPossible(vector<int> &stalls, int k, int mid, int n) {
     
     int cowCount = 1;
-    int lastPos = stalls[0];
+    int lastPos = stalls[0];   // this is done to put cow1 on starting of number line
     
     for(int i=0; i<n; i++ ){
         
